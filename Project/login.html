@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title> login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form" onsubmit=""> 
+          <input type="text" required placeholder="username" />
+          <input type="password" required placeholder="password" />
+          <button>login</button>
+          <p class="message">Not registered? <a href="http://127.0.0.1:5500/register.html">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+  
+    <script>
+      var b = document.querySelector("input");
+      var a = document.querySelector("button");
+      
+      a.addEventListener("click",function(){
+        
+          alert("Successfully login");
+        
+      })
+     
+    </script>
+</body>
+
+</html>
